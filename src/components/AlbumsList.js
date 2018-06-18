@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text } from "react-native";
 import axios from "axios";
 
-class AlbumsList extends React.Component {
+export default class AlbumsList extends React.Component {
 
   state = {
     albums: []
@@ -26,5 +26,3 @@ class AlbumsList extends React.Component {
     );
   }
 }
-
-export default AlbumsList;

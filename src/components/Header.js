@@ -4,7 +4,7 @@ import {
     View
 } from 'react-native';
 
-class Header extends React.Component {
+export default class Header extends React.Component {
     render() {
         return (
             <View style={styles.view}>
@@ -33,5 +33,3 @@ const styles = {
         fontWeight: 'bold'
     }
 }
-
-export default Header;
